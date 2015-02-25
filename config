@@ -23,7 +23,7 @@ floating_modifier $mod
 bindsym $mod+Return exec xfce4-terminal
 
 # lock the screen
-bindsym $mod+Escape exec "i3lock -i /home/karshan/.i3/lock.png"
+# bindsym $mod+Escape exec "i3lock -i /home/karshan/.i3/lock.png"
 
 # kill focused window
 bindsym $mod+c kill
@@ -31,10 +31,10 @@ bindsym $mod+c kill
 # start dmenu (a program launcher)
 bindsym $mod+p exec "dmenu_run -nb black -p run"
 
-bindsym $mod+Shift+p exec "~/.bin/pass-autotype-dmenu"
+# bindsym $mod+Shift+p exec "~/.bin/pass-autotype-dmenu"
 
 # screen lock
-bindsym Control+$mod+l exec slimlock
+# bindsym Control+$mod+l exec slimlock
 
 # change focus
 bindsym $mod+h focus left
@@ -66,7 +66,7 @@ bindsym $mod+d focus parent
 bindsym $mod+b focus child
 
 # move container between displays
-bindsym $mod+semicolon move workspace to output right
+# bindsym $mod+semicolon move workspace to output right
 
 # toggle tiling / floating
 bindsym $mod+Shift+f floating toggle
